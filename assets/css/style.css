@@ -23,6 +23,13 @@ h6 {
   display: flex;
 }
 
+@media (max-width:786px) {
+  .carousel-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .carousel-inner {
   padding-left: 24px;
   padding-right: 24px;
