@@ -72,22 +72,11 @@ h6 {
 }
 
 @media (max-width:768px) {
-  .profile .wishlist .cart i {
+  .cart i {
     font-size: 23px !important;
 
   }
 
-  .profile i {
-    color: #039be5;
-  }
-
-  .wishlist i {
-    color: #e47ecf;
-  }
-
-  .cart i {
-    color: #7c4700;
-  }
 
 }
 
