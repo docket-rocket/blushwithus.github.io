@@ -23,6 +23,11 @@ h6 {
   display: flex;
 }
 
+.carousel-inner {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .offer__banner {
   /* display: flex;
   justify-content: center;
