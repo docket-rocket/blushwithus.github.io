@@ -23,12 +23,7 @@ h6 {
   display: flex;
 }
 
-@media (max-width:786px) {
-  .carousel-inner {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
+
 
 .carousel-inner {
   padding-left: 24px;
@@ -90,6 +85,13 @@ h6 {
     padding-right: 0px;
   }
 
+}
+
+@media (max-width:786px) {
+  .carousel-inner {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
 
 @media (max-width:768px) {
