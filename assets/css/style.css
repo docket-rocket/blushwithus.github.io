@@ -66,6 +66,18 @@ h6 {
     padding-right: 4px;
   }
 
+  .profile {
+    color: #039be5;
+  }
+
+  .wishlist {
+    color: #e47ecf;
+  }
+
+  .cart {
+    color: #7c4700;
+  }
+
 }
 
 @media (max-width:768px) {
