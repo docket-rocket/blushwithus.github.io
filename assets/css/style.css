@@ -103,9 +103,7 @@ h6 {
 }
 
 @media (max-width:768px) {
-  .owl-carousel .owl-item img {
-    height: 100% !important;
-  }
+  .owl-carousel .owl-item img {}
 }
 
 @media (max-width:768px) {
