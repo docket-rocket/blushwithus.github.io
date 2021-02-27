@@ -104,7 +104,7 @@ h6 {
 
 @media (max-width:768px) {
   .owl-carousel .owl-item img {
-    height: 80%;
+    height: 60%;
   }
 }
 
