@@ -42,21 +42,21 @@ h6 {
 }
 
 .profile i {
-  font-size: 23px !important;
-  padding-left: 7px !important;
-  padding-right: 7px !important;
+  font-size: 23px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .wishlist i {
-  font-size: 23px !important;
-  padding-left: 7px !important;
-  padding-right: 7px !important;
+  font-size: 23px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .cart i {
-  font-size: 23px !important;
-  padding-left: 7px !important;
-  padding-right: 7px !important;
+  font-size: 23px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .profile i {
@@ -74,7 +74,8 @@ h6 {
 @media (max-width:768px) {
   .cart i {
     font-size: 23px !important;
-
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
