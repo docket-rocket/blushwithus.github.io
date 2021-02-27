@@ -16,7 +16,7 @@
     }
   });
 
-  // Back to top button
+  
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -33,6 +33,8 @@
 
   var nav = $('nav');
   var navHeight = nav.outerHeight();
+
+  
 
   /*--/ ScrollReveal /Easy scroll animations for web and mobile browsers /--*/
   window.sr = ScrollReveal();
@@ -131,6 +133,7 @@
     responsive: {
       0: {
         items: 1,
+      
       },
       769: {
         items: 2,
@@ -157,5 +160,24 @@
       }
     }
   });
+  const signUp = document.querySelector('.signUp');
+  const profile = document.querySelector('.profile');
+  const wishlist = document.querySelector('.wishlist');
+  const cart = document.querySelector('.cart');
+  let mql = window.matchMedia('(max-width:768px)');
+  console.log(mql);
+  
+  if (window.matchMedia('(max-width:768px)').matches === true) {
+    signUp.innerHTML = "Sign Up/Login";
+    signUp.style.color = "pink";
+   
+      profile.remove();
+      cart.remove();
+      wishlist.remove();
+    }
+  
+  
+  
+
 
 })(jQuery);
