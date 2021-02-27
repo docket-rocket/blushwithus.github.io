@@ -98,7 +98,7 @@ h6 {
 
 @media (max-width:768px) {
   .intro .carousel-item-a {
-    height: 42vh !important;
+    height: 10vh !important;
   }
 }
 
