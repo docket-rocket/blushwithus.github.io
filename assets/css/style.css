@@ -41,40 +41,40 @@ h6 {
   width: 170px;
 }
 
-.profile .wishlist .cart {
+.profile .wishlist .cart i {
   font-size: 23px;
   padding-left: 7px;
   padding-right: 7px;
 }
 
-.profile {
+.profile i {
   color: #039be5;
 }
 
-.wishlist {
+.wishlist i {
   color: #e47ecf;
 }
 
-.cart {
+.cart i {
   color: #7c4700;
 }
 
 @media (max-width:768px) {
-  .profile .wishlist .cart {
+  .profile .wishlist .cart i {
     font-size: 15px;
     padding-left: 4px;
     padding-right: 4px;
   }
 
-  .profile {
+  .profile i {
     color: #039be5;
   }
 
-  .wishlist {
+  .wishlist i {
     color: #e47ecf;
   }
 
-  .cart {
+  .cart i {
     color: #7c4700;
   }
 
