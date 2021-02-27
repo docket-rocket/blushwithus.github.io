@@ -12,6 +12,7 @@
 .owl-carousel {
     display: none;
     width: 100%;
+    height: 85%;
     z-index: 1
 }
 
@@ -54,19 +55,19 @@
     -webkit-touch-callout: none
 }
 
-.owl-carousel .owl-item img {
+/* .owl-carousel .owl-item img {
     display: block;
-    width: 100%
+    width: 100%;
+    height: 80%;
 }
 
 @media (max-height:768px) {
-
     .owl-carousel .owl-item img {
         display: block;
         width: 100%;
         height: 90% !important;
     }
-}
+} */
 
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
