@@ -96,7 +96,7 @@ h6 {
   }
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
   .intro .carousel-item-a {
     height: 52vh;
   }
@@ -106,7 +106,7 @@ h6 {
   .owl-carousel .owl-item img {
     height: 60%;
   }
-}
+} */
 
 @media (max-width:768px) {
   .intro .carousel-item-a {
