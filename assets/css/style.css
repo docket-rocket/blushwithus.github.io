@@ -24,6 +24,10 @@ h6 {
   color: #000000;
 }
 
+.mobile {
+  display: flex;
+}
+
 .offer__banner {
   /* display: flex;
   justify-content: center;
@@ -60,6 +64,7 @@ h6 {
 }
 
 .profile i {
+
   color: #039be5;
 }
 
@@ -75,7 +80,7 @@ h6 {
   .cart i {
     font-size: 23px !important;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: -8px;
   }
 
 

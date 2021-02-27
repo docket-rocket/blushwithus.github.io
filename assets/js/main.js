@@ -14,6 +14,8 @@
         $(this).remove();
       });
     }
+   
+    
   });
 
   
@@ -160,23 +162,26 @@
       }
     }
   });
+
   const signUp = document.querySelector('.signUp');
   const profile = document.querySelector('.profile');
   const wishlist = document.querySelector('.wishlist');
   const cart = document.querySelector('.cart');
+  const mobile = document.querySelector(".mobile");
   let mql = window.matchMedia('(max-width:768px)');
   console.log(mql);
   
   if (window.matchMedia('(max-width:768px)').matches === true) {
     signUp.innerHTML = "Sign Up/Login";
     signUp.style.color = "pink";
-   
-      profile.remove();
-      cart.remove();
-      wishlist.remove();
-    }
-  
-  
+    mobile.appendChild(profile);
+    mobile.appendChild (wishlist);
+    mobile.appendChild (cart);
+      // profile.remove();
+      // cart.remove();
+      // wishlist.remove();
+  }
+  console.log(mobile)
   
 
 
