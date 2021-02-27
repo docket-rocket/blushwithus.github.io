@@ -1,9 +1,4 @@
 /**
-* Template Name: EstateAgency - v2.2.1
-* Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -800,8 +795,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all .5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
